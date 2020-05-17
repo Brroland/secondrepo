@@ -2,8 +2,11 @@ const sum = (a, b) => {
 	return a + b;
 };
 
-console.log (sum(3, 4));
+const multi = (a, b) => {
+	return a * b;
+};
 
 module.exports {
-	sum
+	sum,
+	multi
 };
